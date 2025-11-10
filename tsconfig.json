@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "resolvePackageJsonExports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@db": ["packages/db/src/index"],
+      "@db/*": ["packages/db/src/*"]
+    }
+  },
+  "include": ["apps", "packages"]
+}

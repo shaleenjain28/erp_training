@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "paths": {
+      "@db": ["../../packages/db/src/index"],
+      "@db/*": ["../../packages/db/src/*"],
+      "@ui/*": ["../../packages/ui/src/*"],
+      "@types/*": ["../../packages/types/src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
